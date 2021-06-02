@@ -1,3 +1,6 @@
+"""
+Program to flip a coin and find percentage count of head and tail occurences
+"""
 import random
 
 count_t = 0
