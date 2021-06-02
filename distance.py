@@ -3,7 +3,7 @@
 @Date: 2021-06-02
 @Last Modified by: Nida Jawre
 @Last Modified time: 2021-06-02
-@Title: Program to find triplets from an array of numbers which adds up to zero
+@Title: Program to find Euclidean distance
 """
 import math
 
@@ -15,7 +15,7 @@ def calculate_distance(l):
     :return: euclidean distance
     """
     distance = math.sqrt(l[0] ** 2 + l[1] ** 2)
-    return distance
+    return round(distance,2)
 
 def accept_integers():
     """
